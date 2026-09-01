@@ -1,5 +1,11 @@
 # 📸 Smart Face Attendance System
 
+## AI-Assisted Python Project for Face Recognition & Attendance Data Analysis
+
+A Python-based Smart Face Attendance System developed using **Python, OpenCV, Pandas, NumPy and Streamlit**, with the help of **AI-assisted development** for designing, implementing, debugging and improving the application.
+
+The project combines **Computer Vision, Face Recognition, Data Analysis and Web Application Development** into a single attendance management system.
+
 A face-recognition based student attendance management system built using Python, OpenCV, Pandas and Streamlit.
 
 The system allows students to be registered with face data, automatically recognizes registered faces, marks attendance, prevents duplicate attendance for the same day, and provides attendance records and reports.
