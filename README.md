@@ -1,82 +1,64 @@
-# 📸 Smart Face Attendance System
+📸 Smart Face Attendance System
+AI-Assisted Python Project for Face Recognition & Attendance Data Analysis
+A Python-based Smart Face Attendance System developed using Python, OpenCV, Pandas, NumPy and Streamlit, with the help of AI-assisted development for designing, implementing, debugging and improving the application.
 
-## AI-Assisted Python Project for Face Recognition & Attendance Data Analysis
-
-A Python-based Smart Face Attendance System developed using **Python, OpenCV, Pandas, NumPy and Streamlit**, with the help of **AI-assisted development** for designing, implementing, debugging and improving the application.
-
-The project combines **Computer Vision, Face Recognition, Data Analysis and Web Application Development** into a single attendance management system.
+The project combines Computer Vision, Face Recognition, Data Analysis and Web Application Development into a single attendance management system.
 
 A face-recognition based student attendance management system built using Python, OpenCV, Pandas and Streamlit.
 
 The system allows students to be registered with face data, automatically recognizes registered faces, marks attendance, prevents duplicate attendance for the same day, and provides attendance records and reports.
 
----
-
-## ✨ Features
-
-### 👤 Student Management
-- Register new students
-- Store student ID, name and roll number
-- Store face images for registered students
-- Search students by name or roll number
-- View face-data availability
-- Delete students
-- Remove associated face data
-- Retrain the recognition model after student changes
-
-### 📷 Face Recognition
-- Capture face using camera
-- Detect faces using OpenCV
-- Recognize registered students
-- Display recognized student's details
-- Handle unknown/unregistered faces
-
-### 📋 Attendance
-- Automatically mark recognized students as Present
-- Store date and time of attendance
-- Prevent duplicate attendance on the same day
-- View complete attendance history
-- Filter attendance by date
-- Export attendance records as CSV
-
-### 📊 Reports
-- Attendance statistics
-- Student-wise attendance
-- Present and absent days
-- Attendance percentage
-- Low-attendance detection
-- Date-range reports
-- Daily attendance summary
-- Attendance trend visualization
-- Individual student attendance history
-- CSV report export
-
-### 🏠 Dashboard
-- Total students
-- Present students today
-- Absent students today
-- Today's attendance percentage
-- Today's attendance table
-- Recent attendance activity
-- Attendance trend
-- Quick overview of the system
-
----
-
-## 🛠️ Technologies Used
-
-- Python 3
-- Streamlit
-- OpenCV
-- NumPy
-- Pandas
-- CSV-based data storage
-
----
-
-## 📁 Project Structure
-
-```text
+✨ Features
+👤 Student Management
+Register new students
+Store student ID, name and roll number
+Store face images for registered students
+Search students by name or roll number
+View face-data availability
+Delete students
+Remove associated face data
+Retrain the recognition model after student changes
+📷 Face Recognition
+Capture face using camera
+Detect faces using OpenCV
+Recognize registered students
+Display recognized student's details
+Handle unknown/unregistered faces
+📋 Attendance
+Automatically mark recognized students as Present
+Store date and time of attendance
+Prevent duplicate attendance on the same day
+View complete attendance history
+Filter attendance by date
+Export attendance records as CSV
+📊 Reports
+Attendance statistics
+Student-wise attendance
+Present and absent days
+Attendance percentage
+Low-attendance detection
+Date-range reports
+Daily attendance summary
+Attendance trend visualization
+Individual student attendance history
+CSV report export
+🏠 Dashboard
+Total students
+Present students today
+Absent students today
+Today's attendance percentage
+Today's attendance table
+Recent attendance activity
+Attendance trend
+Quick overview of the system
+🛠️ Technologies Used
+Python 3
+Streamlit
+OpenCV
+NumPy
+Pandas
+CSV-based data storage
+📁 Project Structure
 Face_Recognisation_System_Using_Py/
 │
 ├── app.py
@@ -99,3 +81,53 @@ Face_Recognisation_System_Using_Py/
 ├── data_backup/
 │
 └── venv/
+
+---
+
+# 🖥️ Application Screenshots
+
+## 🏠 Dashboard
+
+The dashboard provides a quick overview of the attendance system, including total students, today's attendance, recent activity and attendance trends.
+
+![Dashboard](assets/screenshots/dashboard.png)
+
+---
+
+## 👥 Student Management
+
+Manage registered students, search students and view face-data availability from the Student Management section.
+
+![Student Management](assets/screenshots/student-management.png)
+
+---
+
+## 👤 Register Student
+
+Register a new student by entering their details and capturing their face through the camera.
+
+![Register Student](assets/screenshots/register-student.png)
+
+---
+
+## 📷 Take Attendance
+
+The face recognition module identifies registered students and automatically marks their attendance.
+
+![Take Attendance](assets/screenshots/attendance.png)
+
+---
+
+## 📋 Attendance Records
+
+View attendance records, filter them by date and export the results as CSV.
+
+![Attendance Records](assets/screenshots/attendance-records.png)
+
+---
+
+## 📊 Reports & Data Analysis
+
+Analyze attendance using date-range reports, student-wise statistics, attendance percentages, low-attendance detection and trend visualization.
+
+![Reports](assets/screenshots/reports.png)
