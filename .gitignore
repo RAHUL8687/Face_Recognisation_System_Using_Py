@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Face / attendance data
+data/faces/
+data/attendance/
+data/students.csv
+data/attendance.csv
+data/face_model.yml
+
+# Backups
+data_backup/
+app_backup_before_ui.py
+app_backup_step66.py
+
+# Local AI/tool configuration
+.agents/
+.claude/
+
+# Streamlit
+.streamlit/secrets.toml
